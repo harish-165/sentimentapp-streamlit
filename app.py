@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import requests
+import  requests
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
