@@ -1,5 +1,5 @@
 numpy
 pandas
 streamlit
-sklearn
+sklearn==0.24.1
 joblib
