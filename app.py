@@ -8,6 +8,7 @@ import numpy as np
 import joblib
 model =joblib.load('Project_Data')
 st.title('Sentiment Analysis')
+ip = []
 ip = st.text_input('Enter your message')
 op =  model.predict([ip])
 if st.button('predict'):
